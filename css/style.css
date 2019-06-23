@@ -2,3 +2,27 @@
 	font-size: 50px;
 	text-align: center;
 }
+
+.intro_buttons{
+	text-align: center;
+}
+
+button{
+	font-size: 40px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#signing_up{
+	margin-top: 300px;
+}
+
+#logging_in{
+	margin-top: 50px;
+}
+
+.background{
+	position: absolute;
+	object-fit: cover;
+	z-index: -1;
+}
