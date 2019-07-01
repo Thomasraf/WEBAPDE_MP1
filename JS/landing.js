@@ -7,7 +7,7 @@ form.addEventListener('submit', submitForm)
 function submitForm(e){
     e.preventDefault();
 
-    if(username.value == "admin" && password.value == "password"){
+    if(username.value == "admin" && password.value == "p@ssword"){
         console.log('success')
     }
     else if(username.value == '' || password.value == ''){
